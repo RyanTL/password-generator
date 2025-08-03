@@ -1,0 +1,61 @@
+body {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+}
+
+span {
+    color: #10B981;
+}
+
+hr {
+   height: 2px; 
+   border: none;
+   background-color: #2f353e;
+}
+
+.container{
+    width: 250px;
+    text-align: start;
+    margin: auto;
+}
+
+.button{
+    background-color: #10B981;
+    color: white;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+.password{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.copy-btn{
+    width: 150px;
+    height: 20px;
+    background-color: #2f353e;
+    color: #12cb72;
+    border-radius: 4px;
+    border: none;
+    margin-right: 10px;
+    font-size: 10px;
+    cursor: pointer;
+    font-weight:500;
+}
+
+.copy-btn:hover{
+    background-color: #49515d;
+}
+
+
